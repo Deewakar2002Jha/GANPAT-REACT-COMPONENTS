@@ -1,13 +1,19 @@
 import React from 'react'
-import ClassComponents from './components/ClassComponents'
-import FunctionalComponents from './components/FunctionalComponents'
+// import ClassComponents from './components/ClassComponents'
+// import FunctionalComponents from './components/FunctionalComponents'
+import Navbar from './components/Navbar'
+import MainSection from './components/MainSection'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <>
-      <ClassComponents />
-      <FunctionalComponents />
-    </>
+    <div className='app'>
+      {/* <ClassComponents />
+      <FunctionalComponents /> */}
+      <Navbar />
+      <MainSection />
+      <Footer />
+    </div>
   )
 }
 

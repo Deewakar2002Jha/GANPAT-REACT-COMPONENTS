@@ -1,0 +1,29 @@
+*{
+    color:red;
+    padding: 0px;
+    margin: 0px;
+}
+.app{
+    background-color: blue;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200;
+    background-color: rgb(212, 180, 162);
+}
+.main{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: green;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: blue;
+}
